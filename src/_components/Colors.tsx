@@ -26,7 +26,7 @@ export default function Colors() {
             <li key={crypto.randomUUID()} className={`${colorStyling} ${isRed ? "bg-red-600" : "bg-red-200"}`}>
                 <button disabled={buttonIsDisabled} onClick={() => handleGuess('red')} className="w-full h-full" />
             </li>
-            <li key={crypto.randomUUID()} className={`${colorStyling} ${isYellow ? "bg-yellow-300" : "bg-yellow-200"}`}>
+            <li key={crypto.randomUUID()} className={`${colorStyling} ${isYellow ? "bg-yellow-400" : "bg-yellow-200"}`}>
                 <button disabled={buttonIsDisabled} onClick={() => handleGuess('yellow')} className="w-full h-full" />
             </li>
             <li key={crypto.randomUUID()} className={`${colorStyling} ${isBlue ? "bg-blue-600" : "bg-blue-200"}`}>

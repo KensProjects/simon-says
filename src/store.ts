@@ -11,7 +11,7 @@ export function getRandomColor() {
 }
 
 async function delay() {
-    await new Promise(res => setTimeout(res, 500))
+    await new Promise(res => setTimeout(res, 400))
 }
 
 export type GameStoreTypes = {

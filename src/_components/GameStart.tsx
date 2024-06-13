@@ -10,9 +10,8 @@ export default function GameStart() {
     }
 
     return (
-        <div className='flex flex-col justify-between items-center gap-4 w-full sm:w-3/4 h-auto border-2 border-purple-500 rounded-lg overflow-hidden'>
-            <h1 className="mt-8">Simon Says</h1>
-            <button className="w-full h-12 hover:bg-green-400 bg-green-300" onClick={() => startGame()}>Start Game</button>
-        </div>
+        <button className='flex flex-col justify-around items-center w-full sm:w-3/4 h-1/2 border-4 border-purple-500 rounded-lg overflow-hidden bg-green-300 text-3xl font-semibold' onClick={() => startGame()}>
+            <h1>Simon Says</h1>
+        </button>
     )
 }
